@@ -1,6 +1,13 @@
 #!/usr/bin/python3
-""" sqaure class """
+""" Simple sqaure """
+
+
 class Sqaure:
-""" instantiation for square """
-	def __init__ (self, size):
-		self.__size = size
+""" class where size is size of the sqaure """
+def __init__(self, size=0):
+	if type(size) != int:
+		raise TypeError("size must be an int")
+	if size < 0:
+		raise ValueError("size must be 0")
+	self.__size = size
+	
