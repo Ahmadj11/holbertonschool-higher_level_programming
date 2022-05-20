@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-""" New BaseGeometry class """
+""" New BaseGeometry class 
+"""
 
 class BaseGeometry:
-""" contains the geometry class """
+""" contains the geometry class 
+"""
 pass
