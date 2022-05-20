@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+
+
 def uniq_add(my_list=[]):
-    i = 0
-    fpr j in set(my_list):
-        i == j
-    return i
+    """
+    sum of all unique elements within the list.
+    """
+    new_list = [element for element in my_list]
+    return sum(set(new_list))
