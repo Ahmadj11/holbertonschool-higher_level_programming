@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-""" 
-BaseGeometry class 
+"""
+module containing the BaseGeometry class
 """
 
+
 class BaseGeometry:
-""" 
-contains the geometry class 
-"""
-pass
+    """
+    empty class
+    """
+    pass
