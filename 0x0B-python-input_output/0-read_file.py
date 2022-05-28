@@ -8,6 +8,6 @@ def read_file(filename=""):
     """
     Reads filename and will print to standart output
     """
-    with open(filename) as x:
-        for line in x:
+    with open(filename) as a:
+        for line in a:
             print(line, end="")

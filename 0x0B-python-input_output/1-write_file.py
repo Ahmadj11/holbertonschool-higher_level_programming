@@ -1,8 +1,15 @@
 #!/usr/bin/python3
-""" Using with to write a file"""
+""" write_file """
 
-def write_file(filename=''):
-    """ String for text and returns the number of characters """
-    with open(filename) as f:
-        return f.write(filename)
-        print(len(f))
+
+
+
+def write_file(filename="", text=""):
+    """
+    Write string to filename, it will be 
+    created if filename doesn't exist, 
+    and empty files will be overwritten """
+    length = len(text)
+    with open(filename, "w") as x:
+        x.write(text)
+    return length
